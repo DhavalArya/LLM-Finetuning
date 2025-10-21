@@ -1,0 +1,2 @@
+# Example llama.cpp invocation after exporting GGUF INT4:
+./main -m ./artifacts/judge-Q4_K_M.gguf           -p "<PAYLOAD_JSON>\n\n<SECTIONAL_SUMMARY>\n\nReturn strict JSON scores with keys: ..."           -n 256 --temp 0.0 --ctx-size 4096
