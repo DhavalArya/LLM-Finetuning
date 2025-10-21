@@ -1,0 +1,4 @@
+Score the executive summary against the provided business JSON using the rubric.
+Return STRICT JSON with keys:
+factuality, context_relevance, coverage_prioritization, toxicity_bias,
+readability_structure, overall, section_scores.
