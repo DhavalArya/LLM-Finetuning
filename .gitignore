@@ -1,0 +1,16 @@
+__pycache__/
+*.pt
+*.bin
+*.safetensors
+*.gguf
+artifacts/
+ckpts/
+data/*.ckpt
+.DS_Store
+venv/
+.github/copilot-instructions.md
+.github/workflows/ci.yml
+.vscode/launch.json
+data/
+qlora-judge-ckpt/tokenizer.model
+qlora-judge-ckpt/checkpoint-176/rng_state.pth
